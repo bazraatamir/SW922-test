@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    width: 100%;
+    height: 60px;
+    background-color:#00B1D2FF;
+}
+.menu .logo{
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+.menu .logo h1{
+    text-align: center;
+    margin-top: 10px;
+    color: #FDDB27FF;
+    text-transform: uppercase;
+}
+.menu .menu-bar{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float:right;
+}
+.menu .menu-bar ul{
+    list-style: none;
+}
+.menu .menu-bar ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    color: #FDDB27FF;
+    text-transform: capitalize;
+    font-size: 20px;
+}
